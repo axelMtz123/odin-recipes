@@ -4,25 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1><b>Odin Recipes</b></h1>
+<div class="body"><body>
+    <h1 class="h1"><b>Odin Recipes</b></h1>
     
-    <ol><img src="./Images/Fried-chicken.jpg" 
-    alt="picture of fried chicken" height="210" width="310">
-    <p><a href="recipes/Fried-chicken.html"><b>Fried Chicken</b></a></p>
+    <ol> 
+    <div class="content1">
+        <img src="./Images/Fried-chicken.jpg" 
+        alt="picture of fried chicken" height="210" width="310" class="img">
 
-    <img src="./Images/Mac-and-cheese.jpg" alt="mac and cheese picture"
-        height="210" width="310">
+        <button class="btn"><a href="recipes/Fried-chicken.html" class="link"><b>Fried Chicken</b></a></button>
+    </div>
 
-    <p><a href="recipes/Mac-and-cheese.html"><b>Mac and Cheese</b></a></p>
+    <div class="content1">
+        <img src="./Images/Mac-and-cheese.jpg" alt="mac and cheese picture"
+        height="210" width="310" class="img">
 
-    <img src="Images/mash-potatoes.jpg" alt="picture of mash potatoes"
-        height="210" width="210">
-    <p><a href="recipes/mash-potatoes.html"><b>Mash potatoes</b></a></p>
-     </ol>
+        <button class="btn"><a href="recipes/Mac-and-cheese.html" class="link"><b>Mac and Cheese</b></a></button>
+    </div>
 
+    <div class="content1">
+        <img src="Images/mash-potatoes.jpg" alt="picture of mash potatoes"
+        height="210" width="210" class="img">
 
+        <button class="btn"><a href="recipes/mash-potatoes.html" class="link"><b>Mash potatoes</b></a></button>
+    </div>
+    </ol>
 
-</body>
+    
+</body></div>
 </html>

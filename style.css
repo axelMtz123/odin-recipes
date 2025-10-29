@@ -1,7 +1,8 @@
 .body{
     background-color: #a3a3a3;
-    font-family: zain;
+    font-family: zain, sans-serif;
     font-weight: 300px;
+    display: inline-block;
     
 }
 
@@ -14,26 +15,49 @@
     width: 50%;
     left:25%;
     border-radius: 20px;
-    
 }
 
 .content1{
     background-color: #912921;
+    border-radius: 20px;
     margin:30px;
     padding: 30px;
+    border: 10px double;
 }
 
 .img{
     border:10px solid white;
     position: relative;
-    left: 80%;
+    left: 30%;
+    top: 20px;
     max-width: 60%;
     height: auto;
     border-radius: 10px;
+    display: inline-block;
 }
 
 .btn{
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
+    position: relative;
+    left: 1%;
+    border: 5px double;
+    display: inline-block;
 }
+
+h2{
+border-bottom: 3px solid;
+font-size: 25px;
+font-weight: 300;
+
+}
+
+.p{
+    position: relative;
+    bottom: 120px;
+    width:50%;
+    font-size: 18px;
+    display:inline-block;
+}
+
